@@ -1,0 +1,129 @@
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --blue:#87CEFA;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+    --border2:.1rem solid rgba(0,0,0,1);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+
+/*carrinhodecompras*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--blue);
+    margin: 0;
+    padding: 0;
+}
+
+body .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3.5rem 0;
+    font-size: 4rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    background: #fff;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    color: var(--bg);
+    border-bottom: var(--border2);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    background: var(--main-color);
+}
+
+table .menu {
+border: var(--border2);
+}
+
+table tr:nth-child(even) {
+    background: #fff;
+}
+
+
+table td {
+    vertical-align: middle;
+}
+
+table td img {
+    max-width: 100px;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+select {
+    background: var(--bg);
+    color: #fff;
+    border: var(--border);
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    background: var(--main-color);
+    color: #fff;
+    padding: 0.9rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: 0.2s linear;
+    border: var(--border2);
+    font-weight: bold;
+}
+
+a:hover {
+    letter-spacing: 0.2rem;
+}
+
+
+
